@@ -1,0 +1,155 @@
+AdaptiveTestPlots,"plots for a specific package"
+AddLatest,"helps with managing packaging"
+AllanDeviations,"signal processing measures time series"
+AnovaBase,statistics
+AnovaFixedEffectModels,statistics
+AnovaGLM,statistics
+AnovaMixedModels,statistics
+Antique,quantummechanics
+Assignment,"optimization, it assigns tasks to workers"
+Associations,statistics
+AtomsBaseTesting,"packagespecific, for the AtomsBase package"
+Backtester,"incomplete, no readme body or description"
+BaseTestDeprecated,"incomplete, not used since 0.4"
+BATTestCases,"packagespecific, for BAT"
+BayesianExperiments,statistics
+BenchmarkFunctions,"set of functions for testing optimization"
+BOPTestAPI,"for calling optimization test cases https://ibpsa.github.io/project1-boptest/"
+BorrowChecker,"This is an experimental package for emulating a runtime borrow checker in Julia, using a macro layer over regular code."
+Bruno,"Financial simulation"
+BVProblemLibrary,"sub-package for differential equations"
+CalibrationTests,"Statistical testing for calibration of probabilistic models"
+CausalityTools,"statistical tests to detect causal relations"
+ChunkCodecTests,"renamed, lossless encoding package"
+CollisionDetection,"tests for whether objects collide"
+ComoniconTestUtils,"Gone"
+CompositeStructs,"about how to make a struct from another struct"
+ComputerAdaptiveTesting,"about testing people, not code"
+ConcreteStructs,"makes structs concrete when they weren't"
+ConstrainedShortestPaths,"implements A* variants"
+CoverageBase,"coverage internal to the Julia language"
+CriticalDifferenceDiagrams,"diagrams to compare outcome of treatments"
+CUTEst,"interface to constrained and unconstrained nonlinear programming problems for testing optimization algorithms"
+CUTEst_jll,"jll for CUTEst"
+CuTropicalGEMM,"GPU matrix multiplication"
+DAEProblemLibrary,"differential equation library for testing"
+DDEProblemLibrary,"differential equation library for testing"
+DiffEqDevTools
+DiffEqProblemLibrary
+DifferentiationInterfaceTest
+DiffTests,"testing differentiation tools"
+Dijkstra,"shortest path in acyclic graphs"
+DynamicModelTestUtils,"model regression analysis and comparison"
+EffectSizes,"statistics about test effect sizes"
+EnzymeTestUtils,"tests for Enzyme"
+FBCModelTests,"reproducibility of constraint-based metabolic modeling"
+FiniteStateProjection,"converts chemical reaction networks into ODEs"
+FiniteStateTransducers,"weighted finite state transducers"
+FishersExactTest,"statistical test"
+FMIZoo,"FMI is an API and these are FMI models"
+FormatSpecimens,"Examples of biological files."
+GaussianMixtureTest,"statistical distributions test"
+GeneralizedGenerated,"enables the generalized generated functions"
+GNCTestServer
+GoogleTest_jll,"binary for GoogleTest but no users"
+GroupsCore,"group monoid interface"
+HardTestProblems,"problems for metaheuristics"
+HierarchialPerformanceTest,"nonparametric hierarchical performance testing for statistical comparison of computer performance"
+HomogeneityTestBBU,"statistical test of homogeneity"
+HypothesisTests,"statistical tests"
+IndependentHypothesisWeighting,"statistics for multiple testing with side-information"
+InformationGeometry,"analyze parameter space of mathematical models"
+InlineTest,"gone, now ReTest"
+ItemGraphs,"wrapper around lightgraphs"
+JETTest,"deprecated in favor of JET"
+JumpProblemLibrary,"test problems for JuMP"
+Kinematic1D,"simulate 1d kinematics"
+KinematicDriver,"simulate 1d kinematics"
+Knockoffs,"statistics control false discovery when performing variable selection"
+LearnTestAPI,"tests the LeranAPI machine learning interface"
+LogDensityTestSuite,"statistical"
+Lucky,"trading framework"
+LuxTestUtils,"just Lux ecosystem, tests of these"
+MadNLPTests,"statistical tests"
+ManifoldGroupTesting,"statistical tests"
+MannKendall,"statistical test"
+MatrixDepot,"access to test matrices"
+MetidaBioeq,"bioequivalence testing"
+MINLPTests,"statistics"
+MixedAnova,"statistics"
+MixedModelsPermutations,"statistics"
+MLJMultivariateStatsInterface
+MLJTestIntegration
+MLJTestInterface
+MonotoneDecomposition,"b-splines"
+MonteCarloTesting,"bootstrapping-ish"
+MPITestImages,"MPI test images"
+MultipleTesting,"p-value adjustment"
+MultivariateStats,"statistics"
+NautyTraces,"graph theory"
+NCRegressionTests,"regression"
+NLPModelsTest,"statistics"
+NonlinearProblemLibrary
+NonlinearTestProblems
+ODEConvergenceTester
+ODEProblemLibrary
+OperationsResearchModels
+OptimizationTestFunctions
+OptimTestProblem
+OptimTestProblems
+OrdinalMultinomialModels
+OutlierDetectionTest,"statistics"
+PackageTesting,"deprecated"
+PermutationTests,"statistics"
+PhysicalCommunications,"PHY for making boards"
+PolynomialTestSystems
+POMDPModels
+POMDPStressTesting
+POMDPTesting
+ProgenyTestingTools,"progeny testing simulation"
+PropCheck,deprecated
+QuantumControlTestUtils,"quantum control"
+RegistryCI,"registry consistency testing for Julia registry"
+RegressionTests,"statistics"
+RegularizedProblems,"statistics"
+RemoteSCPI,"interface with SCPI devices"
+RNGTest,"test the random number generator"
+RobustShortestPath,"shortest path"
+SaguaroTrader,"trading"
+SaguaroTraderResults,"trading"
+SBMLToolkitTestSuite
+ScoredTests,"administer test to homework"
+SDEProblemLibrary,"differential equations"
+SequencerJ,"finds trends in one-dimensional datasets"
+SimpleByteStuffing,"ultrasound"
+SimpleMock,"kind of broken after 1.6"
+SimradEK60TestData,"test data for SimradEK60"
+Snowflake,"quantum circuits"
+Snowflurry,"quantum circuits"
+SolverTest,"optimizers"
+SplitClusterTest,"statistics clustering"
+SplittablesTesting,"tests the SplittablesBase for parallel computations"
+Strategems,"trading"
+StressTest,"stress testing convenience functions"
+SyntheticObjects,"makes test image data"
+TestContexts,gone
+TestDatasets,"image datasets"
+TestHandcalcFunctions,"tests HandCalcs.jl"
+TestImage2,"image testing"
+TestItemDetection,"low level from testitemrunner"
+TestItems,"again for testitemrunner"
+TestLandscapes,"potential energy landscapes"
+TestParticle,"electromagnetic"
+TestParticleMakie,"visualization"
+TestsForCodecPackages,"for codecs"
+TestU01_jl,"test random number generators"
+TimeseriesSurrogates,"time series statistics"
+Trading,"trading"
+TropicalGEMM,"GPU"
+Txtar,"txtar format"
+Unmarshal,"json unmarshalling"
+VarianceComponentModels,"statistics"
+WildBootTests,"statistics"
+WinEncoding,"string encoding"
+Xicor,"Statistics"
+ZygoteStructArrays,"rules for adjoint struct arrays"

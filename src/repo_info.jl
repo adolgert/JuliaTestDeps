@@ -107,7 +107,9 @@ end
 """
 function page_github_repositories(page)
     # Construct the API URL
-    api_url = "https://api.github.com/search/repositories?q=language:julia+test&per_page=100&page=$page&sort=created&direction=asc"
+    api_url = "https://api.github.com/search/repositories?q=language:julia&per_page=100&page=$page&sort=created&direction=desc"
+    # api_url = "https://api.github.com/search/repositories?q=language:julia+test&per_page=100&page=$page&sort=created&direction=asc"
+    # api_url = "https://api.github.com/search/repositories?q=language:julia+test&per_page=100&page=$page&sort=created&direction=asc"
 
     # Make the GET request to the GitHub API
     response = github_api_request(api_url, github_token())
