@@ -108,8 +108,8 @@ B. Categorical exposition
  1. Introspection
 
     - MacroTools
-    - Functors
-    - InteractiveUtils
+    - Functors - Used to introspect modules.
+    - InteractiveUtils - https://github.com/JuliaLang/julia/blob/master/stdlib/InteractiveUtils/src/InteractiveUtils.jl
 
 
  1. Visibility
