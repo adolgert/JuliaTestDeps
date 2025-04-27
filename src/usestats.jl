@@ -6,6 +6,16 @@ using UUIDs
 
 export read_all_package_targets, most_used_in_test, who_uses
 
+
+"""
+The data directory has toml files from lots of projects. Those toml files
+are either the base Project.toml or test/Project.toml. The arguments here
+are the TOML as a dict and a boolean to indicate whether this is the test/Project.toml.
+
+This returns a dependency chain from one project to those upon which it depends,
+and it identifies that dependency as coming through the main project or through
+its test extension.
+"""
 function read_project(project_dict, is_test)
     target_dict = Dict{String,UUID}()
     dependency = Dict{String,Vector{UUID}}()
@@ -41,6 +51,7 @@ function read_project(project_dict, is_test)
 end
 
 struct NoPackageException <: Exception end
+
 
 
 function read_package_targets(package_dir)
@@ -89,10 +100,7 @@ function read_package_targets(package_dir)
 end
 
 
-function read_all_package_targets()
-    packages = Dict{UUID,String}()
-    dependencies = Dict{String,Dict{String,Vector{UUID}}}()
-
+function read_package_targets_in_subdirectory!(subdir, packages, dependencies)
     for (root, dirs, files) in walkdir(project_directory())
         if "Project.toml" in files
             try
@@ -107,6 +115,15 @@ function read_all_package_targets()
                 end
             end
         end
+    end
+end
+
+
+function read_all_package_targets()
+    packages = Dict{UUID,String}()
+    dependencies = Dict{String,Dict{String,Vector{UUID}}}()
+    for subdir in [project_directory(), github_save_directory()]
+        read_package_targets_in_subdirectory!(subdir, packages, dependencies)
     end
     return packages, dependencies
 end

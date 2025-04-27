@@ -1,5 +1,15 @@
 # Testing Tools Survey
 
+julia> using TidyTest
+
+julia> cd("test")
+
+julia> @run_tests verbose=true;
+Test Summary:   | Pass  Total  Time
+ReversedSeries  |    4      4  0.0s
+  ReversedFrame |    3      3  0.0s
+  Reversed      |    1      1  0.0s
+
 A. Broad Overview
 
  1. Joy of Testing

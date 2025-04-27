@@ -1,3 +1,5 @@
+WhyNotEqual.jl,"Diff of values"
+TestPicker.jl,"Framework for testing"
 SparseArrays,"Sparse matrices, good for testing capability."
 StableRNGs,"Keep same random numbers across Julia version updates"
 JET,"detects type instability"
