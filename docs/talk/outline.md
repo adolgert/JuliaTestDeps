@@ -1,3 +1,12 @@
+- Share genuinely delightful surprises: "Did you know Faker.jl can generate fake Latin text, credit cards, AND prehistoric animal names?"
+  - "TestImages.jl includes pictures of a cameraman, mandrill, and coffee - your tests can be caffeinated!"
+ - "One line of Suppressor.jl cleaned up 1000 lines of test output noise"
+   - Show how OffsetArrays in tests taught you about 1-based indexing assumptions
+     - "JuliaTesting and JuliaCI: Where nice people make tools to make your life easier"
+    - "What if tests documented themselves? (Literate.jl + Test.jl)"
+  - Instead of "What's Missing?" → "What Can We Build Together?"
+  
+
 # Testing Tools Survey
 
 julia> using TidyTest
